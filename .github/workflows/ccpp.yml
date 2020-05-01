@@ -12,4 +12,5 @@ jobs:
 
     steps:
     - name: running code
+      uses: ./testactions/code.c
       run: gcc code.c -o code; ./code
