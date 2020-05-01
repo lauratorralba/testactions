@@ -1,4 +1,4 @@
-name: lauratorralba
+name: C
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
 
 
 jobs:
-  testactions:
+  build:
 
     runs-on: ubuntu-latest
 
