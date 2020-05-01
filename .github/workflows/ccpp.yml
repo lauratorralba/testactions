@@ -1,4 +1,4 @@
-name: testing c
+name: lauratorralba
 
 on:
   push:
@@ -6,10 +6,10 @@ on:
 
 
 jobs:
-  build:
+  testactions:
 
     runs-on: ubuntu-latest
 
     steps:
     - name: running code
-      run: gcc lauratorralba/testactions/code.c -o code; ./code
+      run: gcc code.c -o code; ./code
