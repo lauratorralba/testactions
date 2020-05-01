@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: running code
-      uses: ./.github/testactions/code.c
+    - name: firs step
+      uses: ./testactions/code.c
+    - name: second
       run: gcc code.c -o code; ./code
