@@ -1,0 +1,2 @@
+---
+Last updated: {{site.time}}
